@@ -4,6 +4,11 @@ const mongoose = require('mongoose')
 
 const app = express()
 
+// routes
+app.use('/api/auth', require('./routes/auth.routes'))
+
+
+// min backend - port and database
 const PORT = config.get('port') || 5000
 
 async function start() {
