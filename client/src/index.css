@@ -1,1 +1,14 @@
-@import "~materialize-css/dist/css/materialize.min.css"
+@import "~materialize-css/dist/css/materialize.min.css";
+
+.container {
+    background: url(https://yastatic.net/s3/bro-bg-store/92336e54-5710-4975-bcba-17751894e14c.jpg) center no-repeat;
+    margin: 0 auto;
+    min-width: 100%; 
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    min-height: 100vh;
+    background-size: cover;
+}
+
